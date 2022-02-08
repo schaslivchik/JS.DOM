@@ -25,12 +25,30 @@ main {
   color: #ffffff;
   cursor: pointer;
 }
+.mb-4 {
+  margin-bottom: 10px;
+}
 .mb-3 {
   margin-bottom: 20px;
 }
 .mb-2 {
   margin-bottom: 30px;
 }
-h2 {
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+h1,h2 {
   font-weight: 800;
+}
+.section h2 {
+  text-align: center;
+}
+.section {
+  margin-bottom: 55px;
+}
+.picture {
+  max-width: 400px;
+  object-fit: cover;
+  margin: auto;
 }
